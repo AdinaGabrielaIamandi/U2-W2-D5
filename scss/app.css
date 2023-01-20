@@ -24,11 +24,6 @@ ul li {
   font-weight: bold;
 }
 
-header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
 header nav {
   background-color: #048a81;
   border-bottom: 1px solid #404e7c;
@@ -138,11 +133,18 @@ main section .image {
   width: 200px;
   height: 180px;
 }
+main aside {
+  background-color: #dce0d9;
+}
 main aside #pictureC {
-  width: 300px;
+  width: 250px;
   height: 500px;
 }
 main aside #textC {
-  background-color: rgba(220, 224, 217, 0.718);
+  background-color: rgba(220, 224, 217, 0.564);
   color: #00241b;
+}
+
+footer {
+  background-color: #048a81;
 }/*# sourceMappingURL=app.css.map */

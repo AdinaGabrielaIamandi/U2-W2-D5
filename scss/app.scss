@@ -5,8 +5,6 @@
 @import "./partials/buttons";
 
 header {
-  position: sticky;
-  top: 0;
   nav {
     background-color: $celadon-green;
     border-bottom: $border $purple-navy;
@@ -90,8 +88,9 @@ main {
     }
   }
   aside {
+    background-color: $platinum;
     #pictureC {
-      width: 300px;
+      width: 250px;
       height: 500px;
     }
     #textC {
@@ -99,4 +98,8 @@ main {
       color: $dark-green;
     }
   }
+}
+
+footer {
+  background-color: $celadon-green;
 }
