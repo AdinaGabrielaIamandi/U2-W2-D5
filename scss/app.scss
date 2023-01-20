@@ -67,11 +67,25 @@ header {
     form {
       @media screen and (max-width: 768px) {
         @include d-flex;
-        justify-content: center;
       }
       input {
         border-radius: em(16px);
       }
+    }
+  }
+}
+
+main {
+  article {
+    background-color: $celadon-green;
+    img {
+      width: 222px;
+    }
+  }
+  section {
+    .image {
+      width: 200px;
+      height: 180px;
     }
   }
 }

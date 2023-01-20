@@ -119,9 +119,19 @@ header nav .nav-2 i:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    justify-content: center;
   }
 }
 header nav form input {
   border-radius: 1em;
+}
+
+main article {
+  background-color: #048a81;
+}
+main article img {
+  width: 222px;
+}
+main section .image {
+  width: 200px;
+  height: 180px;
 }/*# sourceMappingURL=app.css.map */
