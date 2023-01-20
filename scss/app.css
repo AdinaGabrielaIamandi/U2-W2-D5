@@ -21,6 +21,7 @@ ul li {
   border: 1px solid #404e7c;
   padding: 0.1875em 1em;
   border-radius: 1em;
+  font-weight: bold;
 }
 
 header {
