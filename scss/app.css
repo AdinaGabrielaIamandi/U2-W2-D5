@@ -16,13 +16,18 @@ ul li {
   list-style-type: none;
 }
 
+.btn-platinum {
+  background-color: #dce0d9;
+  border: 1px solid #404e7c;
+  padding: 0.1875em 1em;
+}
+
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 header nav {
-  min-width: 280px;
   background-color: #048a81;
   border-bottom: 1px solid #404e7c;
   display: flex;
@@ -91,19 +96,18 @@ header nav .nav-1 ul li a {
 }
 header nav .nav-2 {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: 2em;
 }
-@media screen and (max-width: 768x) {
-  header nav .nav-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1em;
-  }
+header nav .nav-2 i {
+  font-size: 1.25em;
 }
 header nav .nav-2 i:hover {
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  header nav .nav-2 i {
+    display: none;
+  }
 }/*# sourceMappingURL=app.css.map */

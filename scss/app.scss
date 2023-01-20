@@ -8,7 +8,6 @@ header {
   position: sticky;
   top: 0;
   nav {
-    min-width: 280px;
     background-color: $celadon-green;
     border-bottom: $border $purple-navy;
     @include d-flex;
@@ -53,15 +52,14 @@ header {
       }
     }
     .nav-2 {
-      @include d-flex;
-      font-size: em(32px);
-      @media screen and (max-width: 768x) {
-        @include d-flex-column;
-        font-size: em(16px);
-      }
+      @include d-flex-column;
       i {
+        font-size: em(20px);
         &:hover {
           cursor: pointer;
+        }
+        @media screen and (max-width: 768px) {
+          display: none;
         }
       }
     }
