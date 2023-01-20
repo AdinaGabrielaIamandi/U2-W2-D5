@@ -4,6 +4,10 @@
 @import "./partials/functions";
 @import "./partials/buttons";
 
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
 header {
   nav {
     background-color: $celadon-green;

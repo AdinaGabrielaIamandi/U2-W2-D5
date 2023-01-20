@@ -24,6 +24,10 @@ ul li {
   font-weight: bold;
 }
 
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
 header nav {
   background-color: #048a81;
   border-bottom: 1px solid #404e7c;
@@ -141,7 +145,7 @@ main aside #pictureC {
   height: 500px;
 }
 main aside #textC {
-  background-color: rgba(220, 224, 217, 0.564);
+  background-color: rgba(220, 224, 217, 0.696);
   color: #00241b;
 }
 
