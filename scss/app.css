@@ -131,7 +131,18 @@ main article {
 main article img {
   width: 222px;
 }
+main section {
+  background-color: #dce0d9;
+}
 main section .image {
   width: 200px;
   height: 180px;
+}
+main aside #pictureC {
+  width: 300px;
+  height: 500px;
+}
+main aside #textC {
+  background-color: rgba(220, 224, 217, 0.718);
+  color: #00241b;
 }/*# sourceMappingURL=app.css.map */

@@ -83,9 +83,20 @@ main {
     }
   }
   section {
+    background-color: $platinum;
     .image {
       width: 200px;
       height: 180px;
+    }
+  }
+  aside {
+    #pictureC {
+      width: 300px;
+      height: 500px;
+    }
+    #textC {
+      background-color: $platinum-transparent;
+      color: $dark-green;
     }
   }
 }
