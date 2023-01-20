@@ -100,8 +100,7 @@ main {
   aside {
     background-color: $platinum;
     #pictureC {
-      width: 250px;
-      height: 500px;
+      object-fit: cover;
     }
     #textC {
       background-color: $platinum-transparent;
@@ -112,9 +111,12 @@ main {
 
 footer {
   background-color: $celadon-green;
+  @media screen and (max-width: 480px) {
+    display: block;
+  }
 }
 
-$template-dark: true;
+$template-dark: false;
 
 body {
   @if ($template-dark == true) {
