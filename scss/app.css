@@ -50,7 +50,7 @@ header nav .nav-1 {
 }
 header nav .nav-1 img {
   width: 170px;
-  height: 130px;
+  height: 140px;
 }
 header nav .nav-1 select {
   padding: 0.5em;
@@ -123,6 +123,12 @@ header nav .nav-2 i:hover {
 header nav form input {
   border-radius: 1em;
 }
+header nav form i {
+  font-size: 1.25em;
+}
+header nav form i:hover {
+  cursor: pointer;
+}
 
 main article {
   background-color: #048a81;
@@ -151,4 +157,40 @@ main aside #textC {
 
 footer {
   background-color: #048a81;
+}
+
+body {
+  background-color: black;
+  color: #dce0d9;
+}
+body nav {
+  background-color: #00241b;
+  border-bottom: 1px solid #00241b;
+}
+body nav .nav-1 select {
+  background-color: rgb(1, 62, 47);
+  color: #dce0d9;
+}
+body nav .nav-1 ul li a {
+  color: #dce0d9;
+}
+body nav .btn-platinum {
+  background-color: rgb(1, 62, 47);
+  color: #dce0d9;
+}
+body main article {
+  background-color: rgb(1, 62, 47);
+}
+body main section {
+  background-color: rgb(1, 62, 47);
+}
+body main aside {
+  background-color: rgb(1, 62, 47);
+}
+body main aside #textC {
+  background-color: rgba(1, 62, 47, 0.574);
+  color: #dce0d9;
+}
+body footer {
+  background-color: #00241b;
 }/*# sourceMappingURL=app.css.map */

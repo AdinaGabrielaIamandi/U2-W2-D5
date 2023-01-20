@@ -20,7 +20,7 @@ header {
       @include d-flex-start;
       img {
         width: 170px;
-        height: 130px;
+        height: 140px;
       }
       select {
         padding: em(8px);
@@ -73,6 +73,12 @@ header {
       input {
         border-radius: em(16px);
       }
+      i {
+        font-size: em(20px);
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
   }
 }
@@ -106,4 +112,48 @@ main {
 
 footer {
   background-color: $celadon-green;
+}
+
+$template-dark: true;
+
+body {
+  @if ($template-dark == true) {
+    background-color: black;
+    color: $platinum;
+    nav {
+      background-color: $dark-green;
+      border-bottom: $border $dark-green;
+      .nav-1 {
+        select {
+          background-color: $dark-green-color;
+          color: $platinum;
+        }
+        ul li a {
+          color: $platinum;
+        }
+      }
+      .btn-platinum {
+        background-color: $dark-green-color;
+        color: $platinum;
+      }
+    }
+    main {
+      article {
+        background-color: $dark-green-color;
+      }
+      section {
+        background-color: $dark-green-color;
+      }
+      aside {
+        background-color: $dark-green-color;
+        #textC {
+          background-color: $dark-green-transparent;
+          color: $platinum;
+        }
+      }
+    }
+    footer {
+      background-color: $dark-green;
+    }
+  }
 }
