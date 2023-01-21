@@ -84,10 +84,11 @@ header {
 }
 
 main {
-  article {
+  .article {
     background-color: $celadon-green;
     img {
-      width: 222px;
+      padding-right: em(12px);
+      width: em(218px);
     }
   }
   section {
@@ -116,7 +117,7 @@ footer {
   }
 }
 
-$template-dark: false;
+$template-dark: true;
 
 body {
   @if ($template-dark == true) {
@@ -125,22 +126,19 @@ body {
     nav {
       background-color: $dark-green;
       border-bottom: $border $dark-green;
-      .nav-1 {
-        select {
-          background-color: $dark-green-color;
-          color: $platinum;
-        }
-        ul li a {
-          color: $platinum;
-        }
+      .textN {
+        color: $platinum;
       }
       .btn-platinum {
         background-color: $dark-green-color;
         color: $platinum;
       }
+      .bG {
+        background-color: $dark-green-color;
+      }
     }
     main {
-      article {
+      .article {
         background-color: $dark-green-color;
       }
       section {

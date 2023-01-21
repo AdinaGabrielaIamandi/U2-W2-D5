@@ -130,11 +130,12 @@ header nav form i:hover {
   cursor: pointer;
 }
 
-main article {
+main .article {
   background-color: #048a81;
 }
-main article img {
-  width: 222px;
+main .article img {
+  padding-right: 0.75em;
+  width: 13.625em;
 }
 main section {
   background-color: #dce0d9;
@@ -162,4 +163,39 @@ footer {
   footer {
     display: block;
   }
+}
+
+body {
+  background-color: black;
+  color: #dce0d9;
+}
+body nav {
+  background-color: #00241b;
+  border-bottom: 1px solid #00241b;
+}
+body nav .textN {
+  color: #dce0d9;
+}
+body nav .btn-platinum {
+  background-color: rgb(1, 62, 47);
+  color: #dce0d9;
+}
+body nav .bG {
+  background-color: rgb(1, 62, 47);
+}
+body main .article {
+  background-color: rgb(1, 62, 47);
+}
+body main section {
+  background-color: rgb(1, 62, 47);
+}
+body main aside {
+  background-color: rgb(1, 62, 47);
+}
+body main aside #textC {
+  background-color: rgba(1, 62, 47, 0.574);
+  color: #dce0d9;
+}
+body footer {
+  background-color: #00241b;
 }/*# sourceMappingURL=app.css.map */

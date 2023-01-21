@@ -18,53 +18,81 @@
 
 <body>
     <header>
-        <nav class="px-5">
-            <div class="nav-1 fs-5 fw-bold">
-                <img src="./assets/logo-bar.png" alt="cecchini bar logo" />
-                <select>
-                    <option>Home</option>
-                    <option>I nostri servizi</option>
-                    <option>More Info</option>
-                </select>
-                <ul>
-                    <li><a href="#" target="_blank">Home</a></li>
-                    <li><a href="#" target="_blank">I nostri servizi</a></li>
-                    <li><a href="#" target="_blank">More Info</a></li>
-                </ul>
-
-            </div>
-            <div>
-                <form class="pb-1 d-flex flex-column align-items-center">
-                    <div>
-                        <input type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn-platinum" type="submit"><i class="bi bi-search-heart"></i> Cerca</button>
-                    </div>
-                    <ul class="list-unstyled d-flex h-100 justify-content-center pt-2">
-                        <li>
-                            <i class="bi bi-facebook p-4"></i>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="textN navbar-brand fs-2 fst-italic fw-bold text-decoration-underline" href="#">
+                    Cecchini Caffè
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="textN nav-link" aria-current="page" href="#">Home</a>
                         </li>
-                        <li>
-                            <i class="bi bi-twitter p-4"></i>
+                        <li class="nav-item dropdown">
+                            <a class="textN nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                I nostri servizi
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="textN dropdown-item bG" href="#">Catering</a></li>
+                                <li><a class="textN dropdown-item bG" href="#">Feste private</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <i class="bi bi-linkedin p-4"></i>
+                        <li class="nav-item">
+                            <a class="nav-link textN" href="#">More info</a>
                         </li>
                     </ul>
-                </form>
+                    <div class="d-lg-flex ">
+                        <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="textN nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Follow us</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="textN dropdown-item bG" href="#"><i class="bi bi-facebook">
+                                                Facebook</i></a>
+                                    </li>
+                                    <li><a class="textN dropdown-item bG" href="#"><i class="bi bi-twitter">
+                                                Twitter</i></a></li>
+                                    <li><a class="textN dropdown-item bG" href="#"><i class="bi bi-instagram">
+                                                Instagram</i></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+
+                            <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                            <button class="btn btn-platinum" type="submit">Cerca</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-    <main class="mx-4">
-        <article class="container mx-auto my-4 p-1 d-md-flex">
-            <img src="./assets/foto1.jpeg" alt="adina pic" />
-            <div class="container d-flex flex-column justify-content-center">
-                <h1 class="fs-1 fw-bold">Chi siamo!</h1>
-                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus ut culpa
-                    esse vero
-                    exercitationem, excepturi consequatur incidunt. Porro, numquam est. Vitae perferendis qui ipsa
-                    doloremque distinctio, eius possimus soluta?</p>
+    <main class="m-4">
+        <div class="container article">
+            <div class="row">
+                <div class="col">
+                    <img src="assets/foto1.jpeg" alt="adina pic" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-7 col-lg-8 d-flex flex-column justify-content-evenly">
+                    <h1>Su di noi</h1>
+                    <p>
+                        Il nostro bar, situato nel cuore della città, è il luogo perfetto per rilassarsi dopo una lunga
+                        giornata di lavoro o per divertirsi con gli amici durante la sera. Offriamo una vasta selezione
+                        di bevande, dai cocktail classici ai vini di qualità e birre artigianali accompagnati da
+                        deliziose pietanze. Regolarmente offriamo musica
+                        dal vivo e intrattenimento per rendere la vostra esperienza ancora più piacevole. Inoltre, il
+                        nostro locale è disponibile per eventi privati e feste di compleanno. Vi aspettiamo!
+                    </p>
+                </div>
             </div>
-        </article>
+        </div>
         <section class="my-5">
             <h2 class="p-2 fs-2 fw-bold">I nostri collaboratori</h2>
             <div class="container">
@@ -103,7 +131,7 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img id="pictureC" src="assets/foto2.jpg" class="d-block w-100"
+                                    <img id="pictureC" src="assets/foto2.jpg" class="d-block w-100 h-100"
                                         alt="breakfast pic" />
                                     <div id="textC" class="carousel-caption d-none d-md-block">
                                         <h5 class="fs-3">Cristiano Lieffort</h5>
